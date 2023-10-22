@@ -1,0 +1,6 @@
+framework module Pods_Openweathermap_DIO {
+  umbrella header "Pods-Openweathermap-DIO-umbrella.h"
+
+  export *
+  module * { export * }
+}

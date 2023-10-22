@@ -1,0 +1,25 @@
+PODS:
+  - FirstModule (0.1.0):
+    - FirstModule/Release (= 0.1.0)
+  - FirstModule/Release (0.1.0)
+
+DEPENDENCIES:
+  - FirstModule (from `https://github.com/NevesNathalia/FirstModule.git`)
+
+EXTERNAL SOURCES:
+  FirstModule:
+    :git: https://github.com/NevesNathalia/FirstModule.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  FirstModule:
+    :commit: edec01d9c495d37d21c01b9c66942c6112cadb7d
+    :git: https://github.com/NevesNathalia/FirstModule.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  FirstModule: 70275a61a7ea9bdab427c5cb0502285957c0d2af
+
+PODFILE CHECKSUM: 0e88b3b791dfb9b3a34f332ed0d7817a144c3013
+
+COCOAPODS: 1.13.0

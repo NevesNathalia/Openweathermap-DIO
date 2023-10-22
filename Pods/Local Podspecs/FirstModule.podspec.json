@@ -1,0 +1,31 @@
+{
+  "name": "FirstModule",
+  "version": "0.1.0",
+  "summary": "A short description of FirstModule.",
+  "description": "Feature para printar um Módulo no console",
+  "homepage": "https://github.com/NevesNathalia/FirstModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NevesNathalia": "nnevesdasilva@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/NevesNathalia/FirstModule.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "FirstModule/Classes/**/*",
+  "default_subspecs": "Release",
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/FirstModule.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}
